@@ -1,0 +1,22 @@
+[Unit]
+Description=BopuCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=bopucoin
+Group=bopucoin
+
+Type=forking
+PIDFile=/var/lib/bopucoind/bopucoind.pid
+ExecStart=/usr/bin/bopucoind -daemon -pid=/var/lib/bopucoind/bopucoind.pid \
+-conf=/etc/bopucoin/bopucoin.conf -datadir=/var/lib/bopucoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

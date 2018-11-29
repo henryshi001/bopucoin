@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bopucoin_bg.qm</file>
+        <file alias="de">locale/bopucoin_de.qm</file>
+        <file alias="en">locale/bopucoin_en.qm</file>
+        <file alias="es">locale/bopucoin_es.qm</file>
+        <file alias="fi">locale/bopucoin_fi.qm</file>
+        <file alias="fr">locale/bopucoin_fr.qm</file>
+        <file alias="it">locale/bopucoin_it.qm</file>
+        <file alias="ja">locale/bopucoin_ja.qm</file>
+        <file alias="pl">locale/bopucoin_pl.qm</file>
+        <file alias="pt">locale/bopucoin_pt.qm</file>
+        <file alias="ru">locale/bopucoin_ru.qm</file>
+        <file alias="sk">locale/bopucoin_sk.qm</file>
+        <file alias="sv">locale/bopucoin_sv.qm</file>
+        <file alias="vi">locale/bopucoin_vi.qm</file>
+        <file alias="zh_CN">locale/bopucoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bopucoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

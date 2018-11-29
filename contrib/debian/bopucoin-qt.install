@@ -1,0 +1,6 @@
+usr/local/bin/bopucoin-qt usr/bin
+share/pixmaps/bopucoin32.xpm usr/share/pixmaps
+share/pixmaps/bopucoin16.xpm usr/share/pixmaps
+share/pixmaps/bopucoin128.png usr/share/pixmaps
+debian/bopucoin-qt.desktop usr/share/applications
+debian/bopucoin-qt.protocol usr/share/kde4/services/

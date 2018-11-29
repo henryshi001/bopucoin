@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BopuCoin
+Comment=BopuCoin P2P Cryptocurrency
+Comment[fr]=BopuCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BopuCoin, eşten eşe kriptografik sanal para birimi
+Exec=bopucoin-qt %u
+Terminal=false
+Type=Application
+Icon=bopucoin128
+MimeType=x-scheme-handler/bopucoin;
+Categories=Office;Finance;
